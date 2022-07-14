@@ -73,6 +73,10 @@ img {
 .modal__button {
   display: inline-block;
   background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem 1.23rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
 }
 /* Show modal */
 
