@@ -35,6 +35,12 @@
   margin: 0;
 }
 
+body,
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
 /*=============== MODAL ===============*/
 
 /* Show modal */
