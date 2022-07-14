@@ -63,6 +63,17 @@ img {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+.modal {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.modal__button {
+  display: inline-block;
+  background-color: var(--first-color);
+}
 /* Show modal */
 
 /*=============== BREAKPOINTS ===============*/
