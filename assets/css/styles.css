@@ -59,7 +59,10 @@ img {
 }
 
 /*=============== MODAL ===============*/
-
+.container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 /* Show modal */
 
 /*=============== BREAKPOINTS ===============*/
