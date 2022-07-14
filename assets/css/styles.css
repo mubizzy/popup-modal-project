@@ -47,6 +47,17 @@ body {
   position: relative;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*=============== MODAL ===============*/
 
 /* Show modal */
