@@ -95,8 +95,17 @@ img {
   overflow: hidden;
   transition: all 0.3s;
   z-index: var(--z-modal);
-  visibility: hidden;
-  opacity: 0;
+  /* visibility: hidden;
+  opacity: 0; */
+
+  /*=== Effect 3 ===*/
+  /* perspective: 1000px; */
+}
+
+.modal__content {
+  position: relative;
+  background-color: var(--container-color);
+  text-align: center;
 }
 /* Show modal */
 
