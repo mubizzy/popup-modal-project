@@ -93,6 +93,10 @@ img {
   display: grid;
   align-items: flex-end;
   overflow: hidden;
+  transition: all 0.3s;
+  z-index: var(--z-modal);
+  visibility: hidden;
+  opacity: 0;
 }
 /* Show modal */
 
