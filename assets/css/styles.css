@@ -123,6 +123,7 @@ img {
 
 .modal__img {
   width: 150px;
+  margin-bottom: 0.75rem;
 }
 
 /* Show modal */
