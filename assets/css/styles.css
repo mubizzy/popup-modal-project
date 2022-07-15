@@ -78,6 +78,10 @@ img {
   border-radius: 0.5rem;
   transition: 0.3s;
 }
+
+.modal__button:hover {
+  background-color: var(--first-color-alt);
+}
 /* Show modal */
 
 /*=============== BREAKPOINTS ===============*/
