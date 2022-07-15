@@ -94,8 +94,8 @@ img {
   align-items: flex-end;
   overflow: hidden;
   transition: all 0.3s;
-  z-index: var(--z-modal);
-  /* visibility: hidden;
+  /* z-index: var(--z-modal);
+  visibility: hidden;
   opacity: 0; */
 
   /*=== Effect 3 ===*/
@@ -141,6 +141,22 @@ img {
 .modal__title {
   font-size: var(--big-font-size);
   color: var(--title-color);
+  font-weight: 500;
+}
+
+.modal__description {
+  margin-bottom: 1.5rem;
+}
+
+.modal__button-width {
+  width: 90%;
+}
+
+.modal__button-link {
+  display: block;
+  margin: 1rem auto 0;
+  background-color: transparent;
+  color: var(--first-color);
   font-weight: 500;
 }
 
