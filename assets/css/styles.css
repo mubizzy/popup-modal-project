@@ -138,6 +138,12 @@ img {
   cursor: pointer;
 }
 
+.modal__title {
+  font-size: var(--big-font-size);
+  color: var(--title-color);
+  font-weight: 500;
+}
+
 /* Show modal */
 
 /*=============== BREAKPOINTS ===============*/
