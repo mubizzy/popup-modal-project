@@ -12,3 +12,4 @@ const showModal = (openButton, modalContent) => {
 showModal("open-modal", "modal-container");
 
 /*=============== CLOSE MODAL ===============*/
+const closeBtn = document.querySelectorAll(".close-modal");
