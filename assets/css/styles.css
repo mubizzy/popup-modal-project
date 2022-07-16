@@ -171,8 +171,10 @@ img {
   transform: translateY(0);
 
   /*====Effect 2==== */
-  transform: scale(1) translateY(0);
+  /* transform: scale(1) translateY(0); */
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (min-width: 576px) {
+}
