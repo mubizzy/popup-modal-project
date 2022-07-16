@@ -182,4 +182,8 @@ img {
     width: 380px;
     border-radius: 1.25rem;
   }
+
+  .modal__img {
+    width: 170px;
+  }
 }
