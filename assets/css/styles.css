@@ -122,8 +122,8 @@ img {
 }
 
 .modal__img {
-  width: 150px;
-  margin-bottom: 0.75rem;
+  width: 94px;
+  /* margin-bottom: 0.75rem; */
 }
 
 .modal__close {
@@ -149,7 +149,7 @@ img {
 }
 
 .modal__button-width {
-  width: 90%;
+  width: 50%;
 }
 
 .modal__button-link {
@@ -184,6 +184,6 @@ img {
   }
 
   .modal__img {
-    width: 170px;
+    width: 90px;
   }
 }
