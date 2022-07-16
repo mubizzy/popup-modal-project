@@ -111,7 +111,7 @@ img {
   transition: all 3s;
 
   /* ===Effect 1=== */
-  transform: translateY(10%);
+  /* transform: translateY(10%); */
 
   /*=== Effect 2 ===*/
   /* transform: scale(.5) translateY(10%); */
@@ -129,7 +129,7 @@ img {
 .modal__close {
   display: inline-flex;
   background-color: var(--first-color);
-  border-radius: 25rem;
+  border-radius: 0.25rem;
   color: #fff;
   font-size: 1.5rem;
   position: absolute;
@@ -161,6 +161,10 @@ img {
 }
 
 /* Show modal */
+.show-modal {
+  visibility: visible;
+  opacity: 1;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
